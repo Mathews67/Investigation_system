@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    border: 1px solid #007BFF;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
